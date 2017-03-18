@@ -1,0 +1,160 @@
+/* This is the general css for elements on all pages*/
+
+* {
+    text-align: center;
+    margin: 10px auto;
+	font-family: Arial;
+}
+
+body {
+    background-image: url(images/canvas.jpg)
+}
+
+#logo {
+    width: 960px;
+}
+
+#logo img {
+	float: left;
+	height: 190px;
+	width: 200px;
+}
+
+#nav {
+    background-color: #56a57d;
+    width: 960px;
+    clear: both;
+    font-size: 26px;
+    border-radius: 10px;
+	
+}
+
+#nav li {
+    display: inline;
+    padding: 0 70px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover {
+	color: #def3e8;
+	
+}
+
+
+#main-container {
+    width: 960px;
+    background-color: #ffefea;
+    border-radius: 10px;
+	padding: 10px 0px;
+}
+
+#footer {
+    background-color: #56a57d;
+    width: 960px;
+    clear: both;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+
+/* ids and classes for individual pages */
+
+/* index css */
+
+#index-img {
+	width: 960px;
+	border-radius: 10px;
+}
+
+#fb {
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#prime-container {
+    height: 400px;
+    width: 960px;
+}
+
+.prime{
+    height: 400px;
+    width: 300px;
+    background-color: #ffefea;
+    float: left; 
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+#peppermint {
+	font-size: 28px;
+}
+
+/* about us css */
+
+.about {
+	width: 750px;
+	background-color: #def3e8;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+
+
+/* menu css */
+
+.item img{
+ 	float: left;
+ 	width: 300px;
+	margin-right: 10px;
+}
+
+.item {
+	height: 250px;
+	margin: 20px 40px;
+	padding-top: 10px;
+}
+
+.item p {
+	text-align: justify;
+	
+}
+
+
+
+
+/* contact css */
+
+#left {
+	float: left;
+	width: 480px;
+	height: 450px;
+}
+
+#right {
+	float: right;
+	width: 480px;
+	height: 450px;
+}
+
+#right a {
+    font-size: 20px;
+	font-weight: bold;
+    color: #56a57d;
+}
+
+#right a:hover {
+	color: #c06346;
+}
+
+#bottom { 
+	width: 960px;
+	padding: 10px 0px;
+}
+
+
